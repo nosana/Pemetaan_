@@ -1,0 +1,413 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pdi"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="209dp"
+        android:background="@color/red"
+        android:layout_width="5dp"
+        android:layout_height="60dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/hal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            fontPath="fonts/Simply.ttf"
+            android:id="@+id/R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/aa"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:text="RELAWAN"
+            android:textSize="20dp"
+            android:textColor="@color/maroon"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="versi 0.1"
+            fontPath="fonts/Timeless.ttf"
+            tools:ignore="MissingPrefix" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/hal2"
+        android:layout_below="@+id/hal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="60dp"
+
+        android:paddingBottom="10dp"
+        >
+
+        <TextView
+            fontPath="fonts/Cocogoose.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PDI"
+            android:textColor="@color/maroon"
+            android:paddingLeft="13dp"
+            tools:ignore="MissingPrefix"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Perjuangan"
+            android:textSize="25dp"
+            android:paddingLeft="13dp"
+
+            android:textColor="@color/maroon"/>
+
+
+        <TextView
+            android:id="@+id/txtpdi"
+            fontPath="fonts/Timeless.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/mega"
+            android:paddingLeft="25dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/balck"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Timeless.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingLeft="20dp"
+            android:text="@string/wati"
+            android:textColor="@color/balck"
+            android:textSize="18dp"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/hal3"
+        android:layout_below="@+id/hal2"
+        android:columnCount="4"
+        android:rowCount="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                android:layout_row="0"
+                android:layout_column="0">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/chart"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/info"
+                android:textColor="@color/balck"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                android:layout_row="0"
+                android:layout_column="0">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/pencapaian"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pencapaian"
+                android:textSize="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/balck"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                android:layout_row="0"
+                android:layout_column="0">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/man"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/C"
+                android:textSize="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/balck"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/power" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/relawan"
+                android:textColor="@color/balck"
+                android:textSize="10dp"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/berita" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Berita"
+                android:textColor="@color/balck"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                android:layout_row="0"
+                android:layout_column="0">
+
+
+                <Button
+
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/canvas" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/can"
+                android:textSize="10dp"
+                android:textColor="@color/balck"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                android:layout_row="0"
+                android:layout_column="0">
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/contract" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data"
+                android:textSize="10dp"
+                android:textColor="@color/balck"/>
+        </LinearLayout>
+
+
+
+    </GridLayout>
+
+    <android.support.design.widget.BottomNavigationView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/abu"
+        android:layout_alignParentBottom="true">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_alignRight="@+id/nama"
+            android:textColor="@color/balck"
+            android:textSize="13dp"
+
+            />
+</RelativeLayout>
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+
+</RelativeLayout>

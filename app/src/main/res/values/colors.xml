@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="balck">#000000</color>
+    <color name="red">#f50000</color>
+    <color name="maroon">#5e0000</color>
+    <color name="white">#ffffff</color>
+    <color name="textview">#f12323</color>
+    <color name="redlogin">#c21b1b</color>
+    <color name="abu">#aeaeae</color>
+</resources>

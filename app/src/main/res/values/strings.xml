@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Relawan PDI</string>
+    <string name="PDI">Relawan</string>
+    <string name="Perjuangan">PDI Perjuangan</string>
+    <string name="mega">"Bergerak terus, tanpa henti.Membuang yang jelek, membangun yang baik."</string>
+    <string name="wati">- Megawati Soekarnoputri -</string>
+    <string name="info">Infografis</string>
+    <string name="Pencapaian">Pencapaian</string>
+    <string name="relawan">Relaawan</string>
+    <string name="C">Caleg</string>
+    <string name="Berita">Berita</string>
+    <string name="can">Canvasing</string>
+    <string name="data">Data survey</string>
+    <string name="daftar">Daftarkan Dirimu Sebagai Relawan !</string>
+    <string name="login">jika sudah terdaftar menjadi relawan silahkan login</string>
+
+</resources>
